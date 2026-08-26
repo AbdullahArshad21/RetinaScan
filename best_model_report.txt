@@ -1,0 +1,21 @@
+Epoch 8 | Val Accuracy: 80.22% | Macro Recall: 0.7071
+
+               precision    recall  f1-score   support
+
+        No DR       0.98      0.96      0.97       361
+         Mild       0.55      0.62      0.58        74
+     Moderate       0.78      0.67      0.72       200
+       Severe       0.33      0.69      0.45        39
+Proliferative       0.78      0.59      0.67        59
+
+     accuracy                           0.80       733
+    macro avg       0.69      0.71      0.68       733
+ weighted avg       0.83      0.80      0.81       733
+
+
+Confusion Matrix (rows=actual, cols=predicted):
+[[346  13   2   0   0]
+ [  5  46  20   2   1]
+ [  1  18 134  41   6]
+ [  0   1   8  27   3]
+ [  0   6   7  11  35]]

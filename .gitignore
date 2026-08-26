@@ -1,0 +1,14 @@
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+
+data/
+*.zip
+__pycache__/
+
+!backend/retina_model_best.pth

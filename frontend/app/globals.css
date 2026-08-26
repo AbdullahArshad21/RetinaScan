@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --clinic-navy: #0b3b5c;
+  --clinic-teal: #0f766e;
+  --clinic-teal-light: #ccfbf1;
+  --bg: #f4f7f8;
+  --card: #ffffff;
+  --border: #e2e8ec;
+  --text: #14212b;
+  --text-muted: #64798a;
+
+  --sev-none: #1a9c6b;
+  --sev-mild: #c9962c;
+  --sev-moderate: #d97b1f;
+  --sev-severe: #d1481f;
+  --sev-proliferative: #a3241a;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.font-mono {
+  font-family: var(--font-mono), monospace;
+}
+
+.clinic-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 2px rgba(11, 59, 92, 0.04), 0 6px 20px -8px rgba(11, 59, 92, 0.10);
+}
+
+.scan-zone {
+  background: radial-gradient(circle at center, #ffffff 0%, #f4f7f8 100%);
+}
+
+.pulse-ring {
+  animation: pulse-ring 2s ease-in-out infinite;
+}
+
+@keyframes pulse-ring {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(15, 118, 110, 0.15); }
+  50% { box-shadow: 0 0 0 12px rgba(15, 118, 110, 0); }
+}
