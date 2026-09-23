@@ -9,7 +9,7 @@ Diabetes affects an estimated 1 in 4 adults in Pakistan — one of the highest r
 Regular eye screening catches it early, but ophthalmologists are concentrated in major cities, and many people with diabetes never get screened until symptoms are already advanced. This project is an AI screening tool aimed at helping close that gap.
 
 ## How it works
-
+xccccccccccccccccccccccccccccvnxkvnasdlkvdkfvldakfmvldf
 Upload a retina photograph and get an instant assessment across five severity levels (No DR → Mild → Moderate → Severe → Proliferative), along with a full confidence breakdown rather than just a single label.
 
 ## The real engineering challenge
@@ -41,4 +41,4 @@ This is a screening aid built for demonstration, not a diagnostic tool — and t
 
 ## Status
 
-Deployed and live.
+Deployed and live
