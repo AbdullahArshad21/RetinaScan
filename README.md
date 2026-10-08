@@ -13,7 +13,7 @@ xccccccccccccccccccccccccccccvnxkvnasdlkvdkfvldakfmvldf
 Upload a retina photograph and get an instant assessment across five severity levels (No DR → Mild → Moderate → Severe → Proliferative), along with a full confidence breakdown rather than just a single label.
 
 ## The real engineering challenge
-
+d,flsmdfsdsdf
 Training a model wasn't the hard part — handling a deeply imbalanced dataset responsibly was.
 
 Nearly half the training images showed no disease, while the most dangerous cases (Severe, Proliferative) made up less than 15% combined. A naive model trades safety for a good-looking accuracy score: high overall accuracy, but it quietly misses most of the severe cases — exactly backwards for a screening tool.
@@ -29,7 +29,7 @@ So the model was optimized for **macro recall** instead of raw accuracy, explici
 
 **Model:** PyTorch + EfficientNet-B0 (transfer learning)
 **Backend:** FastAPI
-**Frontend:** Next.js, TypeScript
+**Frontend:** Next.js, TypeScript..
 
 ## Important note
 
@@ -41,4 +41,4 @@ This is a screening aid built for demonstration, not a diagnostic tool — and t
 
 ## Status
 
-Deployed and live
+Deployed and live...........
